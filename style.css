@@ -1,0 +1,8 @@
+.text-projectcard-description {
+  color: rgba(242, 242, 242, .6);
+  letter-spacing: .4px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 150%;
+}

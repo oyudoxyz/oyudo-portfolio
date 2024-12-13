@@ -129,6 +129,33 @@
         margin-bottom: 32px;
       }
     }
+
+ .modules-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+        margin: 24px 0;
+    }
+
+    .module-item {
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
+    }
+
+    p {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
   </style>
 </head>
 
@@ -180,7 +207,7 @@
         
         <!-- Project Introduction -->
         <div class="project-intro">
-          <p class="text-projectcard-description">
+          <p>
             <a href="https://www.nebulawallet.io/" target="_blank" class="text-link-company">Nebula Wallet</a> 
             is the world's first NFT focused wallet with the goal of bringing ease to the management of digital assets across multiple blockchains.
           </p>
@@ -224,9 +251,11 @@
               <p class="text-section-paragraph">Nebula aims to be the most secure NFT-compatible wallet</p>
               <p class="text-section-paragraph">The goals of Nebula are to:</p>
               <div class="goals-list">
-                <div class="goal-item">Be the most NFT compatible wallet</div>
-                <div class="goal-item">Redifine and amplify the regular wallet user experience</div>
-                <div class="goal-item">Provide added value to the Non fungible Token owner by offering intuitive sorting and categorization.</div>
+                <ul>
+                  <p>• Be the most NFT compatible wallet</p>
+                  <p>• Redifine and amplify the regular wallet user experience</p>
+                  <p>• Provide added value to the Non fungible Token owner by offering intuitive sorting and categorization.</p>
+                </ul>
               </div>
             </div>
           </div>
@@ -332,15 +361,11 @@
               <p class="text-section-paragraph">The Solarsoft team plan to launch the beta for Nebula, though our efforts are largely on pause given the bear market. We'll continue to fix bugs and improve the app but we look forward to ramping up again in soon. Our next steps will be:</p>
               
               <div class="next-steps">
-                <div class="next-step-item">
-                  <strong>Beta feedback</strong>: Once conditions are in place, we'll reach back out to our beta users to collect feedback and iterate on the app. In the short time we've been in beta, we've already learned some really interesting things.
-                </div>
-                <div class="next-step-item">
-                  <strong>Growing the community</strong>: our goal is to grow the community in the NFT community. We have a lot of great content lined up for Twitter, Instagram, Discord and growing our audience there.
-                </div>
+                <p><strong>Beta feedback</strong>: Once conditions are in place, we'll reach back out to our beta users to collect feedback and iterate on the app. In the short time we've been in beta, we've already learned some really interesting things.</p>
+                <p><strong>Growing the community</strong>: our goal is to grow the community in the NFT community. We have a lot of great content lined up for Twitter, Instagram, Discord and growing our audience there.</p>
               </div>
               
-              <p class="text-section-paragraph">In the meantime, feel free to <a href="https://www.nebulawallet.io/" class="text-link-company">Join the waitlist</a> for beta access!</p>
+              <p>In the meantime, feel free to <a href="https://www.nebulawallet.io/" class="text-link-company">Join the waitlist</a> for beta access!</p>
             </div>
           </div>
         </div>

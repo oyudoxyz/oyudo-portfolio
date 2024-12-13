@@ -138,6 +138,33 @@
       }
     }
 
+ .modules-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+        margin: 24px 0;
+    }
+
+    .module-item {
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
+    }
+
+    p {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
     .modules-grid {
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -202,7 +229,7 @@
         
         <!-- Project Introduction -->
         <div class="project-intro">
-          <p class="text-projectcard-description">
+          <p>
             GoBusiness is an Omni channel Internet Banking Service for MSMEs. This service should allow the basic functions of an internet banking system adapted to meet the needs of MSMEs accessible on a PC/Laptop and Mobile phone.
           </p>
         </div>
@@ -239,9 +266,9 @@
             <div class="text-section-content">
               <p class="text-section-paragraph">GoBusiness has a couple of Stakeholders who will be interfacing with the Application. These Include:</p>
               <ul>
-                <li>MSME Businesses owners</li>
-                <li>MSME customers</li>
-                <li>Sterling Bank GoBusiness Administrative Team</li>
+                <p>• MSME Businesses owners</p>
+                <p>• MSME customers</p>
+                <p>• Sterling Bank GoBusiness Administrative Team</p>
               </ul>
             </div>
           </div>

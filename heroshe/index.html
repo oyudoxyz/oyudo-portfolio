@@ -137,6 +137,33 @@
         margin-bottom: 32px;
       }
     }
+
+ .modules-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 16px;
+        margin: 24px 0;
+    }
+
+    .module-item {
+        padding: 12px;
+        background: rgba(255, 255, 255, 0.05);
+        border-radius: 8px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 80px;
+    }
+
+    p {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 400;
+      color: white;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
   </style>
 </head>
 
@@ -188,7 +215,7 @@
         
         <!-- Project Introduction -->
         <div class="project-intro">
-          <p class="text-projectcard-description">
+          <p>
             <a href="https://www.heroshe.com/" target="_blank" class="text-link-company">Heroshe</a> 
             is a freight forwarding platform that enables sourcing, payment and cross-border shipping for individuals and small businesses in Africa.
           </p>
